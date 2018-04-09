@@ -4,7 +4,7 @@ import dicom as dc
 import numpy as np
 
 Folder_Path = "Folder of Dicom File"
-fname = Folder_Path + "\\IndexNumer.txt"
+fname = Folder_Path + "\\IndexNumber.txt"
 with open(fname) as f:
     DICOM_LIST = f.readlines()
 #To remove /n 
